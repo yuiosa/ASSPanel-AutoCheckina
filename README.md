@@ -1,7 +1,7 @@
 # SSPanel 自动签到 V2.0 支持多站点多用户
 原地址：https://github.com/isecret/sspanel-autocheckin
 
-![SSPanel_Auto_Checkin](https://github.com/isecret/sspanel-autocheckin/workflows/SSPanel_Auto_Checkin/badge.svg)
+![SSPanel_Auto_Checkin](https://github.com/QiYueYiya/sspanel-autocheckin/workflows/SSPanel_Auto_Checkin/badge.svg)
 
 <details>
    <summary>目录</summary>
@@ -33,7 +33,7 @@
 - 支持使用配置文件读取账户信息，支持多机场多用户签到
 - 支持一日多次签到
 - 支持推送签到信息到 QQ、微信和 Telegram
-- 若有 bug 请到 [Issues](https://github.com/isecret/sspanel-autocheckin/issues/new) 反馈
+- 若有 bug 请到 [Issues](https://github.com/QiYueYiya/sspanel-autocheckin/issues/new) 反馈
 
 ## 升级警告
 
@@ -85,9 +85,9 @@ brew install jq
 #### 克隆仓库
 
 ```bash
-git clone --depth=1 https://github.com/isecret/sspanel-autocheckin.git
+git clone --depth=1 https://github.com/QiYueYiya/sspanel-autocheckin.git
 # 因为国内网络克隆速度不是很理想的，选择下面的
-git clone --depth=1 https://hub.fastgit.org/isecret/sspanel-autocheckin.git
+git clone --depth=1 https://hub.fastgit.org/QiYueYiya/sspanel-autocheckin.git
 ```
 
 #### 修改配置
@@ -217,11 +217,11 @@ PushPlus 推送结果: 成功
 
 - 进入 Actions，手动执行一次工作流。
 
-  ![Github Action Run Workflow](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/github_actions_run_workflow.png)
+  ![Github Action Run Workflow](https://cdn.jsdelivr.net/gh/QiYueYiya/sspanel-autocheckin@master/assets/github_actions_run_workflow.png)
 
 - 进入 **Fork 后的项目**，点击右上角的 <kbd>star</kbd> 按钮。
 
-  ![Github Star](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/github_star.png)
+  ![Github Star](https://cdn.jsdelivr.net/gh/QiYueYiya/sspanel-autocheckin@master/assets/github_star.png)
 
 ### Action 定时任务运行结果只显示推送信息
 
@@ -233,7 +233,7 @@ PushPlus 推送结果: 成功
 
 | `TELEGRAMBOT_CHATID`获取                                                                                                    | `TELEGRAMBOT_TOKEN`获取                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| ![GET_TELEGRAMBOT_CHATID](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/GET_TELEGRAMBOT_CHATID.png) | ![GET_TELEGRAMBOT_TOKEN](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/GET_TELEGRAMBOT_TOKEN.png) |
+| ![GET_TELEGRAMBOT_CHATID](https://cdn.jsdelivr.net/gh/QiYueYiya/sspanel-autocheckin@master/assets/GET_TELEGRAMBOT_CHATID.png) | ![GET_TELEGRAMBOT_TOKEN](https://cdn.jsdelivr.net/gh/QiYueYiya/sspanel-autocheckin@master/assets/GET_TELEGRAMBOT_TOKEN.png) |
 
 ### Fork 之后如何同步原作者的更新内容
 
@@ -250,7 +250,7 @@ PushPlus 推送结果: 成功
 
    点击 `install`，完成安装。
 
-   ![Install Pull App](https://cdn.jsdelivr.net/gh/isecret/sspanel-autocheckin@master/assets/install_pull_app.png)
+   ![Install Pull App](https://cdn.jsdelivr.net/gh/QiYueYiya/sspanel-autocheckin@master/assets/install_pull_app.png)
 
    Pull App 可以指定是否保留自己已经修改的内容，分为下面两种方式，如果你不知道他们的区别，就请选择方式二；如果你知道他们的区别，并且懂得如何解决 git 冲突，可根据需求自由选择任一方式。
 
