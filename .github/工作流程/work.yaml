@@ -6,7 +6,7 @@ on:
         branches:
             - master
     schedule:
-        - cron: '50 22,19 * * *'
+        - cron: '51 22,19 * * *'
     watch:
         types: 
             - started
